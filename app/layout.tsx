@@ -13,6 +13,9 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 
+import { ModalProvider } from "./context/ModalContext";
+import ContactModal from "./components/ContactModal";
+
 export const metadata: Metadata = {
   title: "Incubeetor - Affordable Neonatal Care",
   description: "An affordable, transportable neonatal incubator.",
@@ -28,7 +31,10 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${poppins.variable} font-sans antialiased text-gray-900 bg-gray-50`}
       >
-        {children}
+        <ModalProvider>
+          {children}
+          <ContactModal />
+        </ModalProvider>
       </body>
     </html>
   );
