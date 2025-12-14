@@ -182,10 +182,10 @@ export default function ReadMore() {
                     </p>
 
                     <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
-                        <div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg flex items-center gap-4 border border-white/20">
-                            <div className="bg-white p-1.5 rounded h-10 w-28 relative">
+                        <div className="bg-white/10 backdrop-blur-sm p-4 rounded-xl flex items-center gap-4 border border-white/20">
+                            <div className="p-1 rounded-lg h-8 w-24 relative">
                                 <Image
-                                    src="/british-council.jpg"
+                                    src="/british-council-2-removebg-preview.png"
                                     alt="British Council Logo"
                                     fill
                                     className="object-contain"

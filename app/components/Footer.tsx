@@ -27,10 +27,10 @@ export default function Footer() {
 
                     <div>
                         <h4 className="font-bold text-text-light mb-4">Supported By</h4>
-                        <div className="bg-white p-2 rounded w-fit mb-4">
+                        <div className="bg-gray-900 p-2 rounded w-fit mb-4">
                             <div className="relative h-8 md:h-10 w-32 opacity-90 hover:opacity-100 transition-opacity">
                                 <Image
-                                    src="/british-council.jpg"
+                                    src="/british-council-2-removebg-preview.png"
                                     alt="British Council Logo"
                                     fill
                                     className="object-contain"
