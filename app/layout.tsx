@@ -19,6 +19,10 @@ import ContactModal from "./components/ContactModal";
 export const metadata: Metadata = {
   title: "Incubeetor - Affordable Neonatal Care",
   description: "An affordable, transportable neonatal incubator.",
+  icons: {
+    icon: "/favicon-for-public/web-app-manifest-192x192.png",
+    apple: "/favicon-for-public/web-app-manifest-192x192.png",
+  },
 };
 
 export default function RootLayout({
